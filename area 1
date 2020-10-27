@@ -1,3 +1,5 @@
+ch='y'
+while (ch=='y') or (ch=='Y'):    
     l=int(input("Enter base of parallelogram:"))
     w=int(input("Enter width of parallelogram:"))
     h=int(input("Enter height of parallelogram:"))
@@ -5,3 +7,4 @@
     a=l*w
     print("Area of parallelogram =",a)
     print("Perimeter of parallelogram =",p)
+    ch=input("Do you want more y/n:")
